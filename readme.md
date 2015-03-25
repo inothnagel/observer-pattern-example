@@ -1,5 +1,7 @@
 A very basic example of the observer pattern in action for demonstration purposes.
 
+Start reading the code at `ObserverExample.java`.
+
 When the code is run, the output is:
 
 ```
