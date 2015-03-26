@@ -1,8 +1,8 @@
-package observer_example;
 
-public class ObserverExample {
+public class Main {
 	
 	public static void main(String[] args) {
+                System.out.println("\nClient: Creating new observable values.");
 		ObservableValue a = new ObservableValue(3);
 		ObservableValue b = new ObservableValue(5);
 		

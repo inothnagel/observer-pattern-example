@@ -1,4 +1,3 @@
-package observer_example;
 
 public class SumObserver implements Observer {
 	private ObservableValue a = null;

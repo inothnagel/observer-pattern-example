@@ -1,4 +1,3 @@
-package observer_example;
 
 import java.util.ArrayList;
 
