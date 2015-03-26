@@ -1,11 +1,10 @@
-
 import java.util.ArrayList;
 
-public class ObservableValue implements Observable {
+public class Operand implements Observable {
 	private ArrayList<Observer> observers = new ArrayList<>();
 	private int value = 0;
 	
-	public ObservableValue(int i) {
+	public Operand(int i) {
 		value = i;
 		print("I have been created with a value of " + i + ".");
 	}
@@ -34,11 +33,11 @@ public class ObservableValue implements Observable {
 		notifyObservers();
 	}
 	
-	public int value() {
+	public int getValue() {
 		return value;
 	}
 	
 	public void print(String msg) {
-		System.out.println("ObservableValue (" + value + "): " + msg);
+		System.out.println("Operand (" + value + "): " + msg);
 	}
 }
